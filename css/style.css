@@ -1,8 +1,19 @@
+h1,h2,h3,h4,h5,h6, p {
+  margin: 0;
+}
+
 a,
 ul,
 ol {
   text-decoration: none;
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 264px;
 }
 
 body{
@@ -14,6 +25,21 @@ body{
   line-height: 24px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+header .container{
+  padding: 24px 0;
+  justify-content: space-between;
+}
+
 .link-logo {
   font-family: 'Raleway',sans-serif;
   font-size: 18px;
@@ -22,6 +48,7 @@ body{
   color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .link-logo:hover,
@@ -39,6 +66,19 @@ body{
   color: #2E2F42;
 }
 
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
 .nav-link {
     font-size: 16px;
     font-weight: 500;
@@ -48,6 +88,7 @@ body{
   }
 
 .contacts-link {
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -58,11 +99,27 @@ address {
   font-style: normal;
 }
 
+.contacts-links ul {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
 .greeting-section {
   background-color: #2E2F42;
 }
 
+.greeting-section .container {
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .main-header {
+  max-width: 496px;
   color: #FFFFFF;
   font-size: 56px;
   font-weight: bold;
@@ -72,6 +129,8 @@ address {
 }
 
 .main-button {
+  width: 169px;
+  height: 56px;
   background-color: #4D5AE5;
   color: #FFFFFF;
   font-family: 'Roboto',sans-serif;
@@ -87,6 +146,17 @@ address {
   background-color: #404bbf;
 }
 
+.company-skills .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.company-skills .container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
 .company-skills-empty-header {
   font-size: 20px;
   line-height: 1.2;
@@ -95,6 +165,7 @@ address {
 }
 
 .company-skills-headers {
+  margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
@@ -111,12 +182,40 @@ address {
 }
 
 .team {
+   background-color: #F4F4FD;
+}
+
+.team .container {
+  flex-direction: column;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  gap: 72px;
+}
+
+.team .container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
   background-color: #F4F4FD;
 }
 
 .team-card {
-  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F4FD;
 }
+
+div.card-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 16px;
+  background-color: #ffffff;
+
+}
+
 .team-headers-style,
 .portfolio-headers-style {
   font-size: 36px;
@@ -126,6 +225,10 @@ address {
   text-transform: capitalize;
   color: #2E2F42;
   background-color: #FFFFFF;
+}
+
+.team-headers-style{
+  background-color: #F4F4FD;
 }
 
 .subheaders-style {
@@ -141,9 +244,50 @@ address {
   color: #F4F4FD;
 }
 
+.portfolio .container {
+  width: 1128px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
+  align-items: center;
+  gap: 72px;
+}
+
+.portfolio-img {
+  width: 360px;
+}
+
+.portfolio-text{
+  display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    padding: 32px 16px;
+    background-color: #ffffff;
+}
+
+.portfolio .container ul {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .basement {
   background-color: #2E2F42;
   color: #F4F4FD;
+}
+
+.basement .container {
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  margin: 0;
 }
 
 .logo-studio {
@@ -151,9 +295,11 @@ address {
 }
 
 .basement-text {
+  width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
 
 
