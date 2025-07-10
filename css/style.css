@@ -361,6 +361,15 @@ div.card-description {
   margin-bottom: 16px;
 }
 
+.basement .link-logo a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.basement a {
+  display: inline-block;
+}
+
 .logo-studio {
   color: #f4f4fd;
 }
