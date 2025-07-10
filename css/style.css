@@ -29,10 +29,9 @@ body{
   display: flex;
   flex-direction: row;
   width: 1158px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 156px;
-  margin-right: 156px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-section {
@@ -42,11 +41,10 @@ body{
 .header-section .container{
   padding: 0 15px;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .link-logo {
+  display: inline-block;
   font-family: 'Raleway',sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -183,7 +181,15 @@ address {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .company-skills-headers {
@@ -338,7 +344,7 @@ div.card-description {
   margin-right: auto;
 }
 
-.basement .link-logo {
+.link-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
