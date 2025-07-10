@@ -351,13 +351,14 @@ div.card-description {
 }
 
 .basement .container {
+  display: inline-block;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logo-footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
