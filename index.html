@@ -4,14 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
-    <!--Conected normalize style-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
     <!--Conected Releway,Roboto font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,10 +13,18 @@
       rel="stylesheet"
     />
 
+    <!--Conected normalize style-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header-section">
       <div class="container">
         <nav class="menu">
           <a class="link-logo" href="./index.html"
@@ -42,7 +43,7 @@
           </ul>
         </nav>
         <address class="contacts-links">
-          <ul>
+          <ul class="address-list">
             <li>
               <a class="contacts-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -68,9 +69,9 @@
 
       <section class="company-skills">
         <div class="container">
-          <h2 class="company-skills-empty-header"></h2>
-          <ul>
-            <li>
+          <h2 class="company-skills-empty-header visually-hidden"></h2>
+          <ul class="company-skills-list">
+            <li class="company-skills-item">
               <h3 class="company-skills-headers">Strategy</h3>
               <p class="section-text">
                 Our goal is to identify the business problem to walk away with
@@ -105,7 +106,7 @@
       <section class="team">
         <div class="container">
           <h2 class="team-headers-style">Our Team</h2>
-          <ul>
+          <ul class="team-list">
             <li class="team-card">
               <img src="./images/img-3.jpg" alt="first member image" />
               <div class="card-description">
@@ -141,8 +142,8 @@
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-headers-style">Our Portfolio</h2>
-          <ul>
-            <li>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
               <img
                 class="portfolio-img"
                 src="./images/portfolio-img-1.jpg"
