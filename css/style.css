@@ -103,6 +103,7 @@ body{
 }
 
 .nav-link {
+  display: block;
   padding: 24px 0;
   font-size: 16px;
   font-weight: 500;
@@ -112,7 +113,7 @@ body{
 }
 
 .contacts-link {
-
+  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -120,6 +121,8 @@ body{
 }
 
 address {
+  display: block;
+  padding: 24px 0;
   font-style: normal;
 }
 
@@ -231,7 +234,6 @@ address {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  gap: 72px;
 }
 
 .team-list {
@@ -251,7 +253,7 @@ address {
   display: flex;
   flex-direction: column;
   background-color: #F4F4FD;
-  border: solid 1px #404bbf;
+  border: solid 1px #ffffff;
   border-radius: 0 0 4px 4px;
 }
 
@@ -303,7 +305,6 @@ div.card-description {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  gap: 72px;
 }
 
 .portfolio-item {
@@ -322,14 +323,13 @@ div.card-description {
 }
 
 .portfolio-img {
-  width: 360px;
+  width: 100%;
 }
 
 .portfolio-text{
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 8px;
   padding: 32px 16px;
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
