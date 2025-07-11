@@ -350,6 +350,7 @@ div.card-description {
 }
 
 .basement .container {
+  display: inline-block;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
