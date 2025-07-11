@@ -299,7 +299,6 @@ div.card-description {
 }
 
 .portfolio .container {
-  width: 1128px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -356,8 +355,15 @@ div.card-description {
   margin-right: auto;
 }
 
-.link-logo.logo-footer {
+.logo-footer {
   display: inline-block;
+  font-family: 'Raleway',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
 
