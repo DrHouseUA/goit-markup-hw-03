@@ -357,7 +357,6 @@ div.card-description {
 }
 
 .logo-footer {
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -373,7 +372,4 @@ div.card-description {
   letter-spacing: 0.02em;
 }
 
-a.link-logo.logo-footer {
-  display: inline-block;
-}
 
