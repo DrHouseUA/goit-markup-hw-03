@@ -350,6 +350,7 @@ div.card-description {
 }
 
 .basement .container {
+  display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
@@ -357,13 +358,6 @@ div.card-description {
 
 .logo-footer {
   display: inline-block;
-  font-family: 'Raleway',sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
 
@@ -379,5 +373,7 @@ div.card-description {
   letter-spacing: 0.02em;
 }
 
-
+a.link-logo.logo-footer {
+  display: inline-block;
+}
 
