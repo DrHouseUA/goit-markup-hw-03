@@ -381,4 +381,8 @@ div.card-description {
   letter-spacing: 0.02em;
 }
 
+.footer a {
+  display: inline-block;
+}
+
 
